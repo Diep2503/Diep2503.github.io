@@ -4,39 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="16x16">
     <title>Lạc Thảo Viên</title>
 </head>
 <body>
     <header>
-        <div class="main">
-            <div class="menu">
-                <div class="menu_list">
-
-                    <img src="img/logo.jpg" alt="">
-                    <ul>
-                        <li><a class="menu_chung menu_hover" href="#">TRANG CHỦ</a></li>
-                        <li><a class="menu_chung menu_hover" href="#menu">MENU</a></li>
-                        <li><a class="menu_chung menu_hover" href="#blog">BLOG</a></li>
-                        <li><a class="menu_chung menu_hover" href="">TIN TỨC</a></li>
-                        <li><a class="menu_chung menu_hover" href="">THÔNG TIN</a></li>
-                    </ul>
-                    
-                    <input type="text" placeholder="Bạn muốn tìm gì">
-                    <i class="fas fa-search"></i>
+       
+        
+        <div class="header">
+            <input class="checkbox" type="checkbox">
+            <div class="menu-icon">
+                <div class="menu-line">
+    
                 </div>
+            </div>
+            <div class="menu-item">
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="sanpham.html">Cafe</a></li>
+                <li><a href="">Sữa Chua</a></li>
+                <li><a href="">Sinh Tố</a></li>
+                <li><a href="">Trà Hoa Quả</a></li>
+
+                <li><a href="">Địa Chỉ Quán</a></li>
+                <li><a href="">Liên Hệ Và Hỗ Trợ</a></li>
+            </div>
+        </div>
+        <div class="main">
+           
+            
+                <div class="menu">
+                    <div class="menu_list">
+    
+                        <img class="img" src="img/logo.jpg" alt="">
+                        <ul>
+                            <li><a  class="menu_chung" href="#">TRANG CHỦ</a></li>
+                            <li><a class="menu_chung" href="#">BLOG</a></li>
+                            <li><a class="menu_chung" href="#">LIÊN HỆ</a></li>                     
+                            <li><a class="menu_chung" href="#">THÔNG TIN</a></li>
+                            <li><a class="menu_chung" href="#">GIỚI THIỆU</a></li>
+                            
+                        </ul>
+                        
+                        <input type="text" placeholder="Bạn muốn tìm gì">
+                        <i class="fas fa-search"></i>
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        <p class="so_sp">10</p>
+                       <div class="user_main">
+    
+                           <!-- <li><a class="user" href=""><i class="fas fa-user"></i></a>
+                                 <ul class="user_name">
+                                    <li><a href="">Đăng Nhập </a></li>
+                                    <li><a href="">Đăng Xuất</a></li>
+                                </ul> -->
+                        </li> 
+                       </div>
+                       
+                    </div>
+    
+                </div>
+            
+            <div class="slideshow-container">
+                <div class="mySlides mid_img">
+                    <div class="numbertext">1 / 3</div>
+                    <a href=""><img src="img/banner1.jpg" alt=""></a>
+                    <!-- <h1>Lạc Thảo Viên</h1> -->
+                </div>
+                <div class="mySlides mid_img">
+                    <div class="numbertext">2 / 3</div>
+                    <a href=""><img src="img/banner.png" alt=""></a>
+                    <!-- <h1>Lạc Thảo Viên</h1> -->
+                </div>
+                <div class="mySlides mid_img">
+                    <div class="numbertext">3 / 3</div>
+                    <a href=""><img src="img/1376x550-1530431150-Banner.jpg" alt=""></a>
+                    <!-- <h1>Lạc Thảo Viên</h1> -->
+                </div>
+                <div class="mySlides mid_img">
+                    <div class="numbertext">3 / 3</div>
+                    <a href=""><img src="img/bannernamed.jpg" alt=""></a>
+                    <!-- <h1>Lạc Thảo Viên</h1> -->
+                </div>
+               
 
             </div>
-            <div class="mid_img">
-                <a href=""><img src="img/daidien.jpg" alt=""></a>
-                <h1>Lạc Thảo Viên</h1>
-            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
             <div id="menu" class="mid">
                 <div class="mid_menu">
                     <p class="mid_menu_name">MENU</p>
-                   <a class="mid_menu_hover" href="">TẤT CẢ SẢN PHẨM</a>
+                   <!-- <a class="mid_menu_hover" href="">TẤT CẢ SẢN PHẨM</a> -->
                 </div>
                 <div class="mid_sp"> 
                     <div class="mid_sp_title">
@@ -116,7 +179,14 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="mid_list">
+                    <p>Trang hiện tại: 1/3</p>
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                    </ul>
+                </div>
             </div>
             <div id="blog" class="mid_blog">
                 <img src="img/bg_blog_home.jpg" alt="">
@@ -126,7 +196,7 @@
                    
                 </div>
                 <div class="mid_blog_item">
-                    <a href=""><img src="img/blog.jpg" alt=""></a>
+                    <a href=""><img src="img/blog_1.jpg" alt=""></a>
                     <div class="mid_blog_item_title">
                         <p>TIN TỨC</p>
                         <a class="mid_blog_item_btn_title" href="">Lạc Thảo Viên Cafe đại lý chính thức của Xì Phố Cafe tại Đà Nẵng</a>
@@ -198,4 +268,5 @@
         </div>
     </header>
 </body>
+<script src="js/main.js"></script>
 </html>
