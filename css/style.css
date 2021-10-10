@@ -323,11 +323,28 @@ a{
     color: #EA8025;
     position: relative;
 }
+
 .mid_menu p:before{
     position:absolute;
     bottom: 0;
     left: 0;
     width: 50%;
+    content: "";
+    border-bottom: 4px solid black;
+}
+.mid_chitietsp p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #EA8025;
+    position: relative;
+}
+.mid_chitietsp p:before{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 39%;
     content: "";
     border-bottom: 4px solid black;
 }
@@ -1208,9 +1225,7 @@ margin-right: 20px;
     .menu_chung{
         display: none;
     }
-    .img{
-        display: none;
-    }
+    
     .menu_list input{
         border: 1px solid black;
         right: 82px;
@@ -1219,11 +1234,11 @@ margin-right: 20px;
         right: 89px;
     }
     .fa-shopping-cart{
-        color: black;
+        color: white;
         right: 41px;
     }
     .so_sp{
-        background: black;
+        background: white;
         right: 23px;
     }
     .mid_list{
@@ -1260,6 +1275,21 @@ margin-right: 20px;
     .mid_vitri_img img{
         width: 100%;
     }
+    .mid_sp{
+        display: block;
+    }
+    .mid_sp_btn_details{
+        display: block;
+        width: 165px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .mid_sp_img{
+        width: 100%;
+    }
+    .mid_sp_img img{
+        width: 142%;
+    }
     .footer_main{
         margin: 0px 14px;
         display: block;
@@ -1278,6 +1308,43 @@ margin-right: 20px;
     }
     .footer_reserved{
         margin: 0px 14px;
+    }
+   
+/* =------------------san----pham--------------------- */
+    .menu img{
+        width: 0;
+    }
+    .main_sanpham_right_Wrap{
+        display: block;
+        border-left: none;
+    }
+    .main_sanpham{
+        margin: 0;
+    }
+    .main_sanpham_sp_img img{
+        width: 100%;
+    }
+/* -----------------tim-------hieu--- */
+    .main_sanpham_left{
+     display: none;
+    }
+    .main_chitiet_right_table{
+        border-left: none;
+        display: block;
+    }
+    .chitietsp{
+        font-size: 25px;
+    }
+    .mid_chitietsp p{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .main_chitiet_right_table img{
+        width: 95%;
+    }
+    .chitiet_right{
+        margin-top: 20px;
+        margin-left: 0;
     }
     
 }
