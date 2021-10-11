@@ -957,6 +957,10 @@ a{
     width: 240px;
     height: 250px;
 }
+main_sanpham_sp_img iframe{
+    width: 240px;
+   
+}
 .main_sanpham_sp_img img:hover{
 
     transform:translateY(-1px);
@@ -1216,6 +1220,16 @@ margin-right: 20px;
 
 /* mobile  */
 @media only screen and (max-width: 46.1875em){
+
+    .menu-item{
+        text-align:left;
+        align-items: inherit;
+       
+    }
+    .menu-item li{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .mid{
         margin-left: 12px;
     }
@@ -1322,6 +1336,9 @@ margin-right: 20px;
         margin: 0;
     }
     .main_sanpham_sp_img video{
+        width: 100%;
+    }
+    .main_sanpham_sp_img iframe{
         width: 100%;
     }
 /* -----------------tim-------hieu--- */
