@@ -222,6 +222,7 @@ a{
 }
 .thuc_don-main-img img{
     width: 170px;
+    height: 172px;
     transition: transform .4s;
     overflow: hidden; 
 }
