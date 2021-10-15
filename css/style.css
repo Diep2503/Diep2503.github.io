@@ -435,6 +435,7 @@ form button:hover{
     margin-bottom: 30px;
     letter-spacing: 5px;
 }
+
 .gioithieu_gt_text{
     width: 1000px;
     margin: auto;
@@ -565,4 +566,22 @@ form textarea{
 .oder-thucdon p{
     font-size: 18px;
     color: #d78542;
+}
+/* -------------------trang tin tuc---------------------- */
+.tintuc{
+    width: 1000px;
+    margin: auto;
+}
+.tintuc h3{
+    margin: 10px 0px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.tintuc h4{
+    font-size: 20px;
+    color: red;
 }
