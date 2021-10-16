@@ -16,6 +16,9 @@ a{
     width: 200px;
    height: 100px;
 }
+.main{
+    position: relative;
+}
 .menu{
     z-index: 99999;
    background: rgb(0,0,0); 
@@ -27,6 +30,7 @@ a{
     display: flex;
     max-width: 885px;
     margin: auto;
+    position: relative;
     line-height: 60px;
 }
 .menu_li > li > a{
@@ -38,6 +42,17 @@ a{
     font-family: uvn_vanregular;
     text-transform: uppercase;
     transition: ease-in 0.3s;
+}
+.menu_li > li >i{
+    color: white;
+    cursor: pointer;
+    line-height: 60px;
+    padding: 0 17px;
+    font-size: 30px;
+    transition: ease-in 0.3s;
+}
+.menu_li > li >i:hover{
+    background: rgb(0,40,62);
 }
 .trangchu{
     background:rgb(0,40,62) ;
@@ -198,9 +213,17 @@ a{
     align-items: flex-end;
 }
 .thuc_don-main{
+    
     flex: 20%;
     margin: 0 15px;
     
+}
+.chuyenanh{
+   display: flex;
+  
+}
+.cafe{
+    display: none;
 }
 .thuc_don-main-text{
     text-align: center;
@@ -585,3 +608,157 @@ form textarea{
     font-size: 20px;
     color: red;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu_mobile-li{
+    z-index: 999999999999;
+    margin-top: 62px;
+    position: fixed;
+    width: 18em;
+    left: -290px;
+    background: black;
+    padding: 50px 12px;
+}
+.click{
+    left: 0;
+}
+.menu_mobile-sub{
+   
+   margin-bottom: 5px;
+   
+}
+.menu_mobile-sub a:hover{
+    background: rgb(0,40,62);
+}
+.menu_mobile-sub a{
+    background: rgb(0, 28, 43);
+    color: white;
+    display: block;
+   padding: 14px 12px;
+}
+.menu_mobile-sub{
+    position: relative;
+}
+.button-submenu:after{
+    content: '\002B';
+    position: absolute;
+    font-size: 18px;
+    background: #aaa;
+    padding: 14px 16px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.active:after {
+    content: "\2212";
+  }
+ 
+    .panel {
+       padding: 0;
+      
+        display: none;
+        
+      margin-top: 10px;
+        overflow: hidden;
+      }
+      
+      
+      .panel>ul>li>a{
+          color: white;
+          display: block;
+      }
+  
+ .mobile{
+     display: none;
+ }
+/* ----------------------------reponsive------------------- */
+
+@media screen and (max-width: 600px) {
+    
+    .none{
+       display: none;
+    }
+    .mobile{
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .mobile >ul{
+        position: relative;
+    }
+    .gioi_thieu-main {
+        width: 95%;
+    }
+    .gioi_thieu-gt{
+        display: block;
+    }
+    .gt_img img{
+        width: 100%;
+    }
+    .phonghop{
+        display: block;
+    }
+    
+    .gt_phonghop{
+        width: 100%;
+        padding-left: 0;
+    }
+    .gt_phonghop img{
+        width: 100%;
+    }
+    .phonghop form {
+        margin: auto;
+    }
+    .thongtin_h3{
+        width: 95%;
+    }
+    .active {
+        background-color: #717171;
+      }
+      
+    .fade {
+  
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+    .footer_main{
+        width: 95%;
+    }
+    .footer_chung{
+        display: block;
+    }
+    .footer_left{
+        width: 100%;
+    }
+    .footer_right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .gioi_thieu-thuc-don-main{
+        display: block;
+    }
+    .thuc_don-main-img img{
+        width: 100%;
+    }
+    .chuyenanh{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+       
+    }
+    .thongtin_img{
+        display: block;
+    }
+  }
+  

@@ -6,44 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./img/facion.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <title>THE DDUCKY</title>
 </head>
 <body>
+    
     <div class="main">
+        <div class="menu_mobile">
+            <div class="menu_mobile-li">
+                <li>
+                    <div class="menu_mobile-sub">
+                    <a href="./index.html">TRANG CHỦ</a>
+                    <div class="button-submenu"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu_mobile-sub">
+                        <a href="./gioithieu.html">GIỚI THIỆU</a>
+                        <div class="button-submenu"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu_mobile-sub">
+                        <a href="./thuc-don.html">THỰC ĐƠN</a>
+                        <div class="button-submenu"></div>
+                        <div class="panel"> 
+                            <ul>
+                               <li><a href="./cafe-thuc-uong/">CAFE & THỨC UỐNG</a></li>
+                               <li><a href="./a-la-carte/">A LA CARTE</a></li>
+                               <li><a href="./diem-tam-sang/">ĐIỂM TÂM SÁNG</a></li>
+                               <li><a href="./com-trua-van-phong/">CƠM TRƯA VĂN PHÒNG</a></li>
+                               <li><a href="./thuc-don-tiec/">THỰC ĐƠN TIỆC</a></li>
+                        </ul> 
+                        </div>
+                    
+                    </div>
+                   
+                </li>
+                <li>
+                    <div class="menu_mobile-sub">
+                        <a href="./thue_hoi_nghi.html">THUÊ HỘI NGHỊ</a>
+                        <div class="button-submenu"></div>
+                        <div class="panel"> 
+                            <ul>
+                                <li><a href="./dang_ky.html">ĐĂNG KÝ PHÒNG HỌP</a></li>
+                                <li><a href="./thue_hoi_nghi.html">HÌNH ẢNH HỘI NGHỊ</a></li>
+                               
+                        </ul> 
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu_mobile-sub">
+                        <a href="./nhuongquyen.html">NHƯỢNG QUYỀN</a>
+                        <div class="button-submenu"></div>
+                        <div class="panel"> 
+                            <ul>
+                                <li><a href="./nhuong_quyen">NHƯỢNG QUYỀN</a></li>
+                                <li><a href="./Cua_hang/">CỬA HÀNG</a></li>
+                               
+                        </ul> 
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu_mobile-sub">
+                        <a href="./lienhe.html">LIÊN HỆ</a>
+                        <div class="button-submenu"></div>
+                    </div>
+                </li>
+    
+    
+            </div>
+        </div>
         <div class="logo">
             <img src="img/logoD.png" alt="">
         </div>
-        <div class="menu">
+        <div class="menu" id="menu">
             <div class="menu_li">
                 <li><a class="trangchu" href="">TRANG CHỦ</a></li>
-                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
-                <li class="hover"><a href="./thuc-don.html">THỰC ĐƠN</a>
+                <li class="none"><a  href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li class="hover none"><a href="./thuc-don.html">THỰC ĐƠN</a>
                     <ul>
                         <li><a href="./cafe-thuc-uong/">CAFE & THỨC UỐNG</a></li>
                         <li><a href="./a-la-carte/">A LA CARTE</a></li>
                         <li><a href="./diem-tam-sang/">ĐIỂM TÂM SÁNG</a></li>
                         <li><a href="./com-trua-van-phong/">CƠM TRƯA VĂN PHÒNG</a></li>
                         <li><a href="./thuc-don-tiec/">THỰC ĐƠN TIỆC</a></li>
+                        
                     </ul>
                 </li>
-               <div class="menu_logo">
+               <div class="menu_logo none">
                 <a href=""><img src="img/logo2.png" alt=""></a>
                </div>
-                <li class="hover"><a href="./thue_hoi_nghi.html">THUÊ HỘI NGHỊ</a>
+                <li class="hover none"><a href="./thue_hoi_nghi.html">THUÊ HỘI NGHỊ</a>
                     <ul>
                         <li><a href="./dang_ky.html">ĐĂNG KÝ PHÒNG HỌP</a></li>
                         <li><a href="./thue_hoi_nghi.html">HÌNH ẢNH HỘI NGHỊ</a></li>
                        
                     </ul>
                 </li>
-                <li class="hover"><a href="./nhuongquyen.html">NHƯỢNG QUYỀN</a>
+                <li class="hover none"><a href="./nhuongquyen.html">NHƯỢNG QUYỀN</a>
                     <ul>
                         <li><a href="./nhuong_quyen">NHƯỢNG QUYỀN</a></li>
                         <li><a href="./Cua_hang/">CỬA HÀNG</a></li>
                        
                     </ul>
                 </li>
-                <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                <li class="none"><a href="lienhe.html">LIÊN HỆ</a></li>
+                <li class="mobile"><i class="fa fa-bars"></i>
+                   
+                </li>
             </div>
         </div>
         <div class="gioi_thieu">
@@ -71,44 +144,60 @@
                 <div class="gioi_thieu-thuc-don">
                     <h3>THỰC ĐƠN HẤP DẪN TẠI DDUCKY</h3>
                     <div class="gioi_thieu-thuc-don-main">
-                        <div class="thuc_don-main">
-                            <div class="thuc_don-main-text">
-                                <h3>CAFE & THỨC UỐNG</h3>
+                        <div class="chuyenanh chuyenanh_chung fade">
+                            <div class="thuc_don-main">
+                                <div class="thuc_don-main-text">
+                                    <h3>CAFE & THỨC UỐNG</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                   <a href="./cafe-thuc-uong/"> <img src="img/càeeeeeeeeeeeeeeeeeeee.jpg" alt=""></a>
+                                </div>
                             </div>
-                            <div class="thuc_don-main-img">
-                               <a href="./cafe-thuc-uong/"> <img src="img/càeeeeeeeeeeeeeeeeeeee.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="thuc_don-main">
-                            <div class="thuc_don-main-text">
-                                <h3>A LA CARTE</h3>
-                            </div>
-                            <div class="thuc_don-main-img">
-                               <a href="./a-la-carte/"> <img src="img/Ala.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="thuc_don-main">
-                            <div class="thuc_don-main-text">
-                                <h3>ĐIỂM TÂM SÁNG</h3>
-                            </div>
-                            <div class="thuc_don-main-img">
-                               <a href="./diem-tam-sang/"> <img src="img/diemtam--sangggggg.jpg" alt=""></a>
+                            <div class="thuc_don-main">
+                                <div class="thuc_don-main-text">
+                                    <h3>A LA CARTE</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                   <a href="./a-la-carte/"> <img src="img/Ala.jpg" alt=""></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="thuc_don-main">
-                            <div class="thuc_don-main-text">
-                                <h3>CƠM TRƯA VĂN PHÒNG</h3>
+                        <div class="chuyenanh chuyenanh_chung fade">
+
+                            <div class="thuc_don-main">
+                                <div class="thuc_don-main-text">
+                                    <h3>ĐIỂM TÂM SÁNG</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                   <a href="./diem-tam-sang/"> <img src="img/diemtam--sangggggg.jpg" alt=""></a>
+                                </div>
                             </div>
-                            <div class="thuc_don-main-img">
-                                <a href="./com-trua-van-phong/"><img src="img/com.jpg" alt=""></a>
+                            <div class="thuc_don-main">
+                                <div class="thuc_don-main-text">
+                                    <h3>CƠM TRƯA VĂN PHÒNG</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                    <a href="./com-trua-van-phong/"><img src="img/com.jpg" alt=""></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="thuc_don-main">
-                            <div class="thuc_don-main-text">
-                                <h3>THỰC ĐƠN TIỆC</h3>
+                        <div class="chuyenanh chuyenanh_chung fade">
+                            
+                            <div class="thuc_don-main">
+                                <div class="thuc_don-main-text">
+                                    <h3>THỰC ĐƠN TIỆC</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                   <a href="./thuc-don-tiec/"> <img src="img/thucdon.jpg" alt=""></a>
+                                </div>
                             </div>
-                            <div class="thuc_don-main-img">
-                               <a href="./thuc-don-tiec/"> <img src="img/thucdon.jpg" alt=""></a>
+                            <div class="thuc_don-main cafe">
+                                <div class="thuc_don-main-text">
+                                    <h3>CAFE & THỨC UỐNG</h3>
+                                </div>
+                                <div class="thuc_don-main-img">
+                                   <a href="./cafe-thuc-uong/"> <img src="img/càeeeeeeeeeeeeeeeeeeee.jpg" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -216,5 +305,8 @@
             </div>
         </div>
     </div>
+    
+      
 </body>
+<script src="js/main.js"></script>
 </html>
