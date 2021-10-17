@@ -682,7 +682,7 @@ form textarea{
  }
 /* ----------------------------reponsive------------------- */
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 46.1875em){
     
     .none{
        display: none;
@@ -807,13 +807,68 @@ form textarea{
         width: 100%;
         margin: 0 0 30px 0;
     }
-
-
-
-
-
-
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
 
 
   }
+
+  @media only screen and (min-width: 46.25em) and (max-width:63.9375em){
+    
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .none{
+        display: none;
+     }
+     .mobile{
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .gioi_thieu-main{
+        width: 100%;
+    }
+    .gt_img img{
+        width: 100%;
+    }
+    .phonghop{
+        display: block;
+    }
+    .phonghop form{
+        margin: auto;
+    }
+    .thongtin_h3{
+        width: 100%;
+    }
+    .footer_main{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .gioithieu_gt_text{
+        width: 95%;
+    }
+    .trang_thuc_don-main-oder{
+        padding: 50px 10px 0 12px;
+    }
+    .nhuong_quyen-main{
+        width: 100%;
+    }
+    .nhuong_quyen-title{
+        width: 50%;
+        margin: 0 0 30px 0;
+    }
+    .nhuong_quyen{
+        width: 100%;
+    }
+    .lienhe_form{
+        width: 100%;
+        padding-left: 15px ;
+        padding-right: 15px ;
+    }
+    
+}
   
