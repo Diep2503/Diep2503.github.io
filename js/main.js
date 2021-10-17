@@ -1,13 +1,17 @@
 window.onscroll = function() {myFunction()};
 
 var menu = document.getElementById("menu");
+var menumobi = document.getElementById("menu_mobile-li");
 var sticky = menu.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    menu.classList.add("sticky")
+    menumobi.classList.add("menumobi");
+    menu.classList.add("sticky");
   } else {
+    menumobi.classList.remove("menumobi");
     menu.classList.remove("sticky");
+    
   }
 }
 
@@ -51,6 +55,19 @@ function myFunction() {
 //   } else {
     
 //   }
+
+
+
+// var menumobi = document.getElementById("menu_mobile-li");
+// var stick = menumobi.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= stick) {
+//     menumobi.style.margin-top == "62px";
+//   } else {
+//     menumobi.style.margin-top == "167px";
+//   }
+// }
 
 
 var acc = document.getElementsByClassName("button-submenu");

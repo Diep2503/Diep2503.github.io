@@ -616,13 +616,17 @@ form textarea{
 
 .menu_mobile-li{
     z-index: 999999999999;
-    margin-top: 62px;
+    margin-top: 167px;
     position: fixed;
     width: 18em;
     left: -290px;
     background: black;
     padding: 50px 12px;
 }
+.menumobi{
+    margin-top: 62px;
+}
+
 .click{
     left: 0;
 }
@@ -760,5 +764,52 @@ form textarea{
     .thongtin_img{
         display: block;
     }
+    .gioithieu_gt_text{
+        width: 95%;
+    }
+    .lienhe_form{
+        width: 90%;
+    }
+    .lienhe_form-left{
+        display: none;
+    }
+    .lienhe_form-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .trang_thuc_don-main{
+        display: block;
+    }
+    .trang_thuc_don-main-img{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .trang_thuc_don-main-oder{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .nhuong_quyen-main{
+        width: 95%;
+    }
+    .nhuong_quyen-title{
+        width: 50%;
+        margin: 0;
+    }
+    .nhuong_quyen{
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
   }
   
